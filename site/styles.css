@@ -1,5 +1,6 @@
 * {
-	font-family: "copperplate";
+	font-family: monospace;
+	font-weight: bold;
 }
 body {
 	padding: 0px;
@@ -17,13 +18,32 @@ h2 {
 	text-align: center;
 	font-size: 150%;
 }
+
+.padding {
+	padding: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
 h5 {
 	margin-top: 5px;
 	text-align: center;
 	font-size: 80%;
 }
+h3 {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 110%;
+}
 div {
 	text-align: center;
+}
+img.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	width: 70%;
 }
 .mod-item {
 	width: 40%;
@@ -46,7 +66,7 @@ a.linkedButton {
 	padding: 10px;
 	text-decoration: none;
 	font-weight: bold;
-	font-family: "copperplate";
+	font-family: monospace;
 	font-size: 20px;
 	background-color: #477890;
 	transition: color 0.5s, background-color 0.5s;
