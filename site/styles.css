@@ -38,12 +38,30 @@ h3 {
 div {
 	text-align: center;
 }
-img.center {
+.center {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	display: block;
 	width: 70%;
+}
+.craft {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	width: 30%;
+}
+.craft-group {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	width: 70%;
+}
+.craft-group-item {
+	margin: 0.3%;
+	width: 43%;
 }
 .mod-item {
 	width: 40%;
